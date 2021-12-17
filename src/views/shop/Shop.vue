@@ -4,7 +4,7 @@
     <div class="search__back iconfont" @click="handleBackClick">&#xe600;</div>
     <div class="search__content">
      <span class="search__content__icon iconfont">&#xe65c;</span>
-     <input class="search__content__input" placeholder="请输入商品名称搜1索"/>
+     <input class="search__content__input" placeholder="请输入商品名称搜索"/>
     </div>
    </div>
    <ShopInfo :item="item" :hideBorder="true" :v-show="item.imgUrl"/>
